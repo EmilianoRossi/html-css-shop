@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 #contenitore{
     background-color: azure;
     width: 1000px;
@@ -22,6 +25,7 @@
 .immagini{
     margin-left: 40px ;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 .trenta{
     border: 1px, solid, green;
@@ -39,3 +43,69 @@
     right: 0px;
     padding: 2px;
 }
+.cuore{
+    position: absolute;
+    left: 150px;
+    bottom: 0px;
+}
+}
+.ipad { 
+    position: relative; 
+    overflow: hidden; 
+} 
+ 
+.ipad .cuore { 
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+    color: red; 
+    display: none; 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center;
+} 
+ 
+.ipad:hover .cuore { 
+    display: block;
+} 
+}
+.iphone { 
+    position: relative; 
+    overflow: hidden; 
+} 
+ 
+.iphone .cuore { 
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    color: red; 
+    display: none; 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center;
+} 
+ 
+.iphone:hover .cuore { 
+    display:block; 
+} 
+
+}
+.beats { 
+    position: relative; 
+    overflow: hidden; 
+} 
+ 
+.beats .cuore { 
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    color: red; 
+    display: none; 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center;
+} 
+ 
+.beats:hover .cuore { 
+    display:block; 
+} 
