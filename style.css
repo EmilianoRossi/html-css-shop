@@ -7,18 +7,8 @@
     height: 900px;
     margin:0 auto ;
 }
-.ipad{
+.prodotto{
     margin-top: 10px;
-    display: inline-block;
-    position: relative;
-}
-.iphone{
-    margin-top: 10px ;
-    display: inline-block;
-    position: relative;
-}
-.beats{
-    margin-top: 10px ;
     display: inline-block;
     position: relative;
 }
@@ -49,12 +39,12 @@
     bottom: 0px;
 }
 }
-.ipad { 
+.prodotto { 
     position: relative; 
     overflow: hidden; 
 } 
  
-.ipad .cuore { 
+.prodotto .cuore { 
     position: absolute; 
     left: 0;
     bottom: 0;
@@ -65,47 +55,6 @@
     text-align: center;
 } 
  
-.ipad:hover .cuore { 
+.prodotto:hover .cuore { 
     display: block;
-} 
-}
-.iphone { 
-    position: relative; 
-    overflow: hidden; 
-} 
- 
-.iphone .cuore { 
-    position: absolute; 
-    left: 0; 
-    bottom: 0; 
-    color: red; 
-    display: none; 
-    width: 100%; 
-    padding: 10px; 
-    text-align: center;
-} 
- 
-.iphone:hover .cuore { 
-    display:block; 
-} 
-
-}
-.beats { 
-    position: relative; 
-    overflow: hidden; 
-} 
- 
-.beats .cuore { 
-    position: absolute; 
-    left: 0; 
-    bottom: 0; 
-    color: red; 
-    display: none; 
-    width: 100%; 
-    padding: 10px; 
-    text-align: center;
-} 
- 
-.beats:hover .cuore { 
-    display:block; 
 } 
